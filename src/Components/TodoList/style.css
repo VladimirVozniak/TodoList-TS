@@ -1,12 +1,13 @@
-.todo-container{
+.todo-container {
     display: flex;
     align-items: center;
-    margin:3px auto;
+    margin: 3px auto;
 }
 
 .checkAll {
     display: flex;
     align-items: center;
+    justify-content: center;
     user-select: none;
 }
 
