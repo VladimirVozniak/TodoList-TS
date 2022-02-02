@@ -1,0 +1,30 @@
+.todo-container{
+    display: flex;
+    align-items: center;
+    margin:3px auto;
+}
+
+.checkAll {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.someCheck {
+    width: 8px;
+    height: 8px;
+    background: #fbeeca;
+    border: 1px solid #cabd9b;
+    border-radius: 2px;
+    position: relative;
+    right: 16px;
+}
+
+.someCheckOff {
+    opacity: 0;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
